@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.container{
+    max-width: 450px;
+    background: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgba(1.5, 2.5, 3.5, 4.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 15px;
+}
+
+
+
+h1{
+    color: black;
+    letter-spacing: 2.5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#celcius, #farenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    border-style: double;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.icon{
+    flex: 5;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: larger;
+    background:chartreuse;
+    color: black;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button button{
+    border-style: double;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.button button:hover{
+    background:yellow;
+    color: brown;
+}
